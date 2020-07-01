@@ -3,7 +3,7 @@ Ceci est mon premier repo avec  GitHub
 J'ai testé direct :
 
 $ git clone https://github.com/Laurent-Gi/Test-Git-GitHub (je n'ai pas mis de destination rep)
-Il m'a créé un répertoire rep = Test-Git-GitHub (Comme le repository crée sur GitHub)
+Il m'a créé un répertoire rep = Test-Git-GitHub (Comme le repository créé sur GitHub)
 
 équivalent de :
 ---------------
@@ -28,4 +28,12 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-Linux me manque... je vais me cr�er une machine virtuelle !!!
+$ git add . (ou git add README.md)
+
+$ git commit -m "Ajout du README"
+
+ET POUR AVOIR QUELQUE CHOSE DANS GITHUB : IL FAUT FAIRE LE PUSH
+
+$ git push origin master
+
+(Linux me manque... je vais me créer une machine virtuelle !!!)
